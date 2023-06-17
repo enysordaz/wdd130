@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: #FCA6C9;
+}
+
+main p {
+    color: white;
+    font-size: 10px;
+}
+
+
+
+h4 {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0%;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+h2 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+img {
+    width: 40%;
+    height: 50%;
+}
+
+/* classes */
+.content {
+    padding-left: 30%;
+    padding-right: 30%;
+    align-content: center;
+    align-items: center;
+}
+.quote {
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.title {
+    color: white;
+}
+
+.title:hover {
+    color: black;
+}
