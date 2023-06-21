@@ -1,0 +1,9 @@
+--Resources--
+Fonts:
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Nunito+Sans:wght@400;700&family=Poppins:wght@400;700;900&display=swap');
+</style> 
+
+font-family: 'Moirai One', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
