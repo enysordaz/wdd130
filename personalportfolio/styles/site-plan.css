@@ -4,9 +4,9 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700;900&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #873AD8 ;
-  --secondary-color: #f987d3 ;
-  --accent1-color: #54dbf0;
+  --primary-color: #A589E1 ;
+  --secondary-color: #EE8AA8;
+  --accent1-color: #F0B1AF;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -14,15 +14,15 @@ Fonts are separated by a | */
   --paragraph-font: 'Montserrat', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #873ad8;  /* headlines on a white background */ 
+  --headline-color-on-white: #A589E1;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #873ad8; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #873ad8  ;
+  --paragraph-background-color: #A589E1  ;
   --nav-link-color: black;
-  --nav-background-color: #f987d3;
+  --nav-background-color: #EE8AA8;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #54dbf0;
+  --nav-hover-background-color: #F0B1AF;
 }
 
 
