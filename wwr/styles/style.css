@@ -131,6 +131,16 @@ h4 {
 }
 
 /* Classes styles */
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
 .home-title {
     color: white;
     font-family: 'Darumadrop One', cursive, Georgia;
@@ -243,8 +253,180 @@ h4 {
     padding-top: 10px;
 }
 
-/*Responsive design // Media query */
 
+/* Card styles */
+/* dates_prices.html design ID and classes */
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif, Arial;
+    color: #4D4D4D;
+    font-size: .8em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.dates_prices-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+/* First trip card */
+.canyon {
+    border: 10px solid black;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #4D4D4D;
+}
+
+.first_trip-content {
+    text-align: left;
+}
+.first_trip-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #4D4D4D;
+    transition: transform .5s;
+}
+
+.first_trip-card:hover {
+    opacity: 2;
+    transform: scale(1.1);
+}
+
+.first_trip-card h2 {
+    color: #4D4D4D;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.first_trip-card p {
+    font-family: 'Lato', sans-serif, Arial;
+    color: #4D4D4D;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+/*Second trip card*/
+.second_trip-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/6;
+    grid-row: 8/9;
+    box-shadow: 5px 5px 10px #4D4D4D;
+    transition: transform .5s;
+}
+
+.second_trip-card:hover {
+    opacity: 2;
+    transform: scale(1.1);
+}
+
+.second_trip-card h2 {
+    color: #4D4D4D;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.second_trip-card p {
+    font-family: 'Lato', sans-serif, Arial;
+    color: #4D4D4D;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.marble-canyon {
+    border: 10px solid black;
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 8/9;
+    box-shadow: 5px 5px 10px #4D4D4D;
+}
+
+/*Third trip card*/
+.salmon-river {
+    border: 10px solid black;
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 9/10;
+    box-shadow: 5px 5px 10px #4D4D4D;
+}
+
+.third_trip-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 9/10;
+    box-shadow: 5px 5px 10px #4D4D4D;
+    transition: transform .5s;
+}
+
+.third_trip-card:hover {
+    opacity: 2;
+    transform: scale(1.1);
+}
+
+.third_trip-card h2 {
+    color: #4D4D4D;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.third_trip-card p {
+    font-family: 'Lato', sans-serif, Arial;
+    color: #4D4D4D;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+/* Fourth trip card*/
+.fourth_trip-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/6;
+    grid-row: 10/11;
+    box-shadow: 5px 5px 10px #4D4D4D;
+    transition: transform .5s;
+}
+
+.fourth_trip-card:hover {
+    opacity: 2;
+    transform: scale(1.1);
+}
+
+.fourth_trip-card h2 {
+    color: #4D4D4D;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.fourth_trip-card p {
+    font-family: 'Lato', sans-serif, Arial;
+    color: #4D4D4D;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.desolation-rafting {
+    border: 10px solid black;
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 10/11;
+    box-shadow: 5px 5px 10px #4D4D4D;
+}
+
+
+/*Responsive design // Media query */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
