@@ -175,7 +175,7 @@ h4 {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+/*Top of the Home page*/
 #sisters {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -204,8 +204,40 @@ h4 {
     color: white;
 }
 
-
 #sisters-img {
+    width: 100%;
+}
+
+/*Top of the child page (women in STEM)*/
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -25px;
+}
+
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+
+#banner-msg h1 {
+    text-align: center;
+    color: white;
+}
+
+#banner-msg h4 {
+    text-align: center;
+    color: white;
+}
+
+#banner-img {
     width: 100%;
 }
 
@@ -284,7 +316,6 @@ h4 {
     width: 100%;
     grid-column: 2/6;
     grid-row: 5/6;
-
 }
 
 .mission-card {
@@ -323,6 +354,50 @@ h4 {
     transform: scale(1.1);
 }
 
+/*Child page classes*/
+.page-title {
+    color: white;
+    font-family: 'Poppins', sans-serif, Arial;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.lab-image {
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 2/3;
+}
+
+.lab-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 40px;
+    margin: 5px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    transition: transform .5s;
+}
+
+.stem-image {
+    width: 100%;
+    grid-column: 2/6;
+    grid-row: 5/6;
+}
+
+.stem-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 40px;
+    margin: 5px;
+    grid-column: 6/10;
+    grid-row: 5/6;
+    transition: transform .5s;
+}
+
+.lab-card:hover, .stem-card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #4D4D4D;
+}
 
 /*Responsive design // Media query */
 
