@@ -169,6 +169,7 @@ h4 {
   from {opacity: .4}
   to {opacity: 1}
 }
+/*End of slide-show style*/
 
 /* IDs styles */
 #content {
@@ -208,7 +209,7 @@ h4 {
     width: 100%;
 }
 
-/*Top of the child page (women in STEM)*/
+/*ID Styles of Top of the first child page (women in STEM)*/
 #banner {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -238,6 +239,39 @@ h4 {
 }
 
 #banner-img {
+    width: 100%;
+}
+
+/* ID Styles for second child page (Clean energy)*/
+#energy {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#energy-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+
+#energy-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+
+#energy-msg h1 {
+    text-align: center;
+    color: white;
+}
+
+#energy-msg h4 {
+    text-align: center;
+    color: white;
+}
+
+#energy-img {
     width: 100%;
 }
 
@@ -284,6 +318,7 @@ h4 {
 }
 
 /*child elements from class home grid*/
+/*Spaces in between sections of every page*/
 .space {
     grid-column: 1/10;
     grid-row: 1/2;
@@ -296,6 +331,41 @@ h4 {
     padding: 50px;
 }
 
+.space3 {
+    grid-column: 1/10;
+    grid-row: 7/8;
+    padding: 30px;
+}
+
+.space4 {
+    grid-column: 1/10;
+    grid-row: 9/10;
+    padding: 30px;
+}
+
+/*Button styles and classes*/
+.button-box {
+    text-align: center;
+}
+
+.learn, .join {
+    background-color: white;
+    color: #A589E1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: transform .5s;
+}
+
+.learn:hover, .join:hover {
+    background-color: #F0B1AF;
+    color: white;
+    transform: scale(1.1);
+}
+
+/*Images and cards for each page*/
 .vision {
     width: 100%;
     grid-column: 6/10;
@@ -331,27 +401,6 @@ h4 {
 .mission-card:hover, .vision-card:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px #4D4D4D;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.learn, .join {
-    background-color: white;
-    color: #A589E1;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-    transition: transform .5s;
-}
-
-.learn:hover, .join:hover {
-    background-color: #F0B1AF;
-    color: white;
-    transform: scale(1.1);
 }
 
 /*Child page classes*/
@@ -398,6 +447,55 @@ h4 {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px #4D4D4D;
 }
+
+/*Second child page classes*/
+.solar {
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 2/3;
+}
+
+.solar-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 40px;
+    margin: 5px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    transition: transform .5s;
+}
+
+.wind {
+    width: 100%;
+    grid-column: 2/6;
+    grid-row: 5/6;
+}
+
+.wind-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 40px;
+    margin: 5px;
+    grid-column: 6/10;
+    grid-row: 5/6;
+    transition: transform .5s;
+}
+
+.action-card {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 40px;
+    margin: 5px;
+    grid-column: 1/10;
+    grid-row: 10/12;
+    transition: transform .5s;
+}
+
+.solar-card:hover, .wind-card:hover, .action-card {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #4D4D4D;
+}
+
 
 /*Responsive design // Media query */
 
