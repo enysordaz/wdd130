@@ -350,7 +350,7 @@ h4 {
 
 .learn, .join {
     background-color: white;
-    color: #A589E1;
+    color: #43008D;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -402,6 +402,7 @@ h4 {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px #4D4D4D;
 }
+
 
 /*Child page classes*/
 .page-title {
@@ -500,7 +501,7 @@ h4 {
 /*Responsive design // Media query */
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #sisters, #banner, #energy, .home-grid {
         display: block;
         height: auto;
     }
@@ -511,27 +512,26 @@ h4 {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #sisters, #banner, #energy {
         margin-top: 0;
     }
-    #hero-msg {
+    #sisters-msg, #banner-msg, #energy-msg {
         margin-top: 0;
+        color: #43008D;
     }
-    #hero-msg h4 {
-        display: none;
+    #sisters-msg h4, #banner-msg h4, #energy-msg h4 {
+
+        color: #A589E1;
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #43008D;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
+
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .vision, .vision-card {
         width: 80%;
         display: block;
         margin: 0 auto;
